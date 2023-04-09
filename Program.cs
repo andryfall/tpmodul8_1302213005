@@ -1,10 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using tpmodul8_1302213005;
 public class program
 {
-    private void Main(string[] args)
+    private static void Main(string[] args)
     {
         AppConfig appCovid = new AppConfig();
+
+        appCovid.config.UbahSatuan();
+
 
 
 

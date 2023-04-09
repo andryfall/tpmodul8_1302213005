@@ -73,7 +73,7 @@ namespace tpmodul8_1302213005
         {
             if(this.satuan_suhu == "celcius")
             {
-                this.satuan_suhu = "farenheit";
+                this.satuan_suhu = "fahrenheit";
             }
             else
             {
